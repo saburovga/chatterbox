@@ -3,11 +3,11 @@ import sleekxmpp
 import re
 import datetime
 
-xmpp_hostname='openfire.ufk09.local'
+xmpp_hostname='openfire.CHANGE.ME'
 xmpp_jid='test2@'+xmpp_hostname
 xmpp_pwd='test2'
 birthdays_file='birthdates.csv'
-xmpp_to='all@broadcast.openfire.ufk09.local'
+xmpp_to='all@broadcast.'+xmpp_hostname
 msg=''
 celebrating_people=[]
 currentdate=datetime.date.today().strftime('%d.%m')
